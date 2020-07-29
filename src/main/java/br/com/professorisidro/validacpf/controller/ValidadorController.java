@@ -14,9 +14,9 @@ public class ValidadorController {
 	@GetMapping("/validacpf")
 	public String validaCPF(@RequestParam String cpf) {
 		if (Validador.isCPF(cpf)) {
-			return "valido";
+			return "{\"status\": \"valido\"}";
 		}
-		return "invalido";
+		 return "{\"status\": \"invalido\"}";
 	}
 
 }
