@@ -19,4 +19,9 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
+        @GetMapping("/hello")
+	public String sayHello(){
+		return "Hello world";
+	}
+
 }
