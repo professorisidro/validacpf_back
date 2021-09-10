@@ -21,7 +21,7 @@ public class ValidadorController {
 
         @GetMapping("/hello")
 	public String sayHello(){
-		return "Hello world";
+		return "Hello turma PCD - Agora vai!!";
 	}
 
 }
